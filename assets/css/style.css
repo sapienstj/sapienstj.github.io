@@ -90,7 +90,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1.125rem;
-    margin: 0;
+    margin:0;
     padding: 0;
     overflow-x: hidden;
 }
@@ -152,6 +152,7 @@ body.ts-theme-dark .ts-social-icons a:hover {
 
 body, html {
     height: 100%;
+    margin:0;
 }
 
 html {
@@ -2534,7 +2535,11 @@ E. Template Specific Elements
 }
 
 @media (max-width: 35.9375rem) {
+    body{
+        position: fixed;
+    }
     h1 {
+        font-size: 3.2rem;
         margin-bottom: 1.25rem;
     }
 
