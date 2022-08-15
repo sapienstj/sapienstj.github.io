@@ -87,13 +87,12 @@ A. Basic Styling
 -------------------------------------------*/
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1.125rem;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 body.ts-side-panel-active .ts-side-panel {
@@ -128,7 +127,6 @@ body.ts-theme-light .ts-social-icons a:hover {
 body.ts-theme-dark {
     color: #fff;
     background-color: #191919;
-    overflow-y: hidden;
 }
 
 body.ts-theme-dark p {
@@ -425,8 +423,7 @@ B. Helpers
     bottom: 0;
     left: 0;
     height: 100%;
-    overflow-y: hidden;
-    overflow-x: hidden;
+    overflow: hidden;
     position: absolute;
     width: 100%;
     z-index: -2;
@@ -673,7 +670,7 @@ B. Helpers
 }
 
 .ts-overflow__visible {
-    overflow: visible;
+    overflow: hidden;
 }
 
 /* NEW */
@@ -2248,7 +2245,7 @@ E. Template Specific Elements
     height: 100%;
     position: absolute;
     padding: 1.25rem;
-    overflow-y: scroll;
+    overflow-y: hidden;
     right: 0;
     top: 0;
     width: 100%;
@@ -2466,8 +2463,7 @@ E. Template Specific Elements
     }
 
     h1 {
-        font-size: 3.6rem;
-        line-height: 160%;
+        font-size: 2.625rem;
     }
 
     h2 {
